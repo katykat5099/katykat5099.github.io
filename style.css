@@ -1,0 +1,16 @@
+html {
+    background-color: #9e8a4d;
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+div.foreground {
+    background-color: #FFF;
+    padding-left: 500px;
+    padding-right: 500px;
+}
