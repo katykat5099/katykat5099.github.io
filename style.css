@@ -1,16 +1,54 @@
 html {
-    background-color: #9e8a4d;
-    display: table;
-    margin: auto;
+    background-color: #a17438;
+    display:          table;
+    margin:           auto;
 }
 
 body {
-    display: table-cell;
-    vertical-align: middle;
+    margin:           auto;
+    text-align:       center;
+}
+
+a:link {
+    text-decoration:  none;
+    color:          black;
 }
 
 div.foreground {
     background-color: #FFF;
-    padding-left: 500px;
-    padding-right: 500px;
+    padding-left:     500px;
+    padding-right:    500px;
+}
+
+div.header {
+    background-color: #FFF;
+    padding-left:     500px;
+    padding-right:    500px;
+    padding-top:      40px;
+    padding-bottom:   40px;
+    text-transform:   uppercase;
+    text-shadow:      2px 2px lightgray;
+    font-size:        large;
+    text-align:       center;
+}
+
+div.explore {
+    background-color: #e4e1d3;
+    padding-left:     500px;
+    padding-right:    500px;
+    padding-top:      21px;
+    padding-bottom:   20px;
+}
+
+.headerbutton{
+    background-color: gold;
+    font-size:        20px;
+    padding:          15px;
+    border-radius:    3px;
+    border:           2px solid #c48a0d;
+}
+
+div.titlehead{
+    border-radius:    5px;
+    border:           5px solid #e7a821;
 }
