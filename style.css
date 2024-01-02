@@ -16,14 +16,16 @@ a:link {
 
 div.foreground {
     background-color: #FFF;
-    padding-left:     500px;
-    padding-right:    500px;
+    padding-left:     300px;
+    padding-right:    300px;
+    padding-bottom:   30px;
+    border-radius:    8px;
 }
 
 div.header {
     background-color: #FFF;
-    padding-left:     500px;
-    padding-right:    500px;
+    padding-left:     300px;
+    padding-right:    300px;
     padding-top:      40px;
     padding-bottom:   40px;
     text-transform:   uppercase;
@@ -34,21 +36,32 @@ div.header {
 
 div.explore {
     background-color: #e4e1d3;
-    padding-left:     500px;
-    padding-right:    500px;
+    padding-left:     300px;
+    padding-right:    300px;
     padding-top:      21px;
     padding-bottom:   20px;
 }
 
-.headerbutton{
+.headerbutton {
     background-color: gold;
     font-size:        20px;
     padding:          15px;
     border-radius:    3px;
-    border:           2px solid #c48a0d;
+    border:           2px solid #d48318;
 }
 
-div.titlehead{
+div.titlehead {
     border-radius:    5px;
     border:           5px solid #e7a821;
+}
+
+.welcomer {
+    padding-top:      30px;
+}
+
+div.description {
+    inline-size:      500px;
+    overflow-wrap:    break-word;
+    font-size:        larger;
+    text-align:       left;
 }
