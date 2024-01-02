@@ -1,0 +1,16 @@
+.projecttitle {
+    padding-top:      30px;
+}
+
+div.mystieforestbar {
+    border-radius:    5px;
+    border:           2px solid #d48318;
+    background-color: gold;
+    text-align: center;
+}
+
+.mystiebutton{
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+}
