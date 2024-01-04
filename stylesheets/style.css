@@ -21,7 +21,17 @@ body {
 
 a:link {
     text-decoration:  none;
-    color:          black;
+    color:          #704309;
+}
+
+a:visited {
+    text-decoration:  none;
+    color:          #492a02;
+}
+
+a:active {
+    text-decoration:  none;
+    color:          #492a02;
 }
 
 div.foreground {
