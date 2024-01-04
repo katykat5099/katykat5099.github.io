@@ -9,8 +9,12 @@ div.mystieforestbar {
     text-align: center;
 }
 
-.mystiebutton{
+.mystiebutton {
     font-weight: bold;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.stylespriteimage {
+    float: right;
 }
