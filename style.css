@@ -1,9 +1,19 @@
 html {
-    background-color: #a17438;
+    background-color: #b46d2b;
     display:          table;
     margin:           auto;
 }
 
+.divider {
+    height:           3px;
+    background:       black;
+    border:           none;
+}
+
+div.spacing{
+    padding-top:      15px;
+    padding-bottom:   15px;
+}
 body {
     margin:           auto;
     text-align:       center;
