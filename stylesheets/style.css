@@ -2,6 +2,9 @@ html {
     background-color: #b46d2b;
     display:          table;
     margin:           auto;
+    font-family:      Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size:        15px;
+    padding-bottom:   50px;
 }
 
 .divider {
@@ -14,6 +17,11 @@ div.spacing{
     padding-top:      15px;
     padding-bottom:   15px;
 }
+
+div.spacingup{
+    padding-top:      30px;
+}
+
 body {
     margin:           auto;
     text-align:       center;
@@ -26,12 +34,17 @@ a:link {
 
 a:visited {
     text-decoration:  none;
-    color:          #492a02;
+    color:          #704309;
 }
 
 a:active {
     text-decoration:  none;
-    color:          #492a02;
+    color:          #704309;
+}
+
+a:hover {
+    text-decoration:  none;
+    color:          #a38605;
 }
 
 div.foreground {
@@ -84,5 +97,9 @@ div.description {
     inline-size:      500px;
     overflow-wrap:    break-word;
     font-size:        larger;
+    text-align:       left;
+}
+
+div.line {
     text-align:       left;
 }

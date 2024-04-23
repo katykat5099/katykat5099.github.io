@@ -1,16 +1,33 @@
 .projecttitle {
     padding-top:      30px;
+    font-family:      Verdana, Geneva, Tahoma, sans-serif;
 }
 
-div.alphabar {
-    border-radius:    5px;
-    border:           2px solid #d48318;
-    background-color: gold;
-    text-align: center;
+div.buttonswrap {
+    border:           5px solid #ffc375;
+    padding:          20px;
 }
 
 .minecraftbutton {
-    font-weight: bold;
-    padding-left: 20px;
-    padding-right: 20px;
+    font-weight:      bold;
+    padding:          15px;
+    background-color: gold;
+}
+
+.versionbutton {
+    font-size:        x-large;
+    outline:          2px dashed rgb(248, 205, 63);
+    font-family:      Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nextversionbutton {
+    font-size:        smaller;
+}
+
+div.schedule {
+    border:           5px solid #e7a821;
+    width:            350px;
+    text-align:       center;
+    margin:           auto;
+    background-color: #fff9ec;
 }
