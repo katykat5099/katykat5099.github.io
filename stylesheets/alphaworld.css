@@ -31,3 +31,7 @@ div.schedule {
     margin:           auto;
     background-color: #fff9ec;
 }
+
+p.itempic a:hover {
+    opacity:          0.5;
+}
