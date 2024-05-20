@@ -1,0 +1,125 @@
+.fire {
+    background-color: #E62829;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.water {
+    background-color: #2980EF;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.grass {
+    background-color: #3FA129;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.electric {
+    background-color: #FAC000;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.psychic {
+    background-color: #EF4179;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.ice {
+    background-color: #3DCEF3;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.dragon {
+    background-color: #5060E1;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.dark {
+    background-color: #624D4E;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.fairy {
+    background-color: #EF70EF;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.normal {
+    background-color: #9FA19F;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.fighting {
+    background-color: #FF8000;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.flying {
+    background-color: #81B9EF;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.poison {
+    background-color: #9141CB;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.ground {
+    background-color: #915121;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.rock {
+    background-color: #AFA981;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.bug {
+    background-color: #91A119;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.ghost {
+    background-color: #704170;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.steel {
+    background-color: #60A1B8;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}

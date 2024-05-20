@@ -18,3 +18,9 @@ div.mystieforestbar {
 .stylespriteimage {
     float: right;
 }
+
+.dextable {
+    margin: auto;
+    border: 2px solid #d48318;
+    border-radius: 4px;
+}
