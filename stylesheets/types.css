@@ -3,6 +3,8 @@
     color: white;
     text-align: center;
     border-radius: 5px;
+    width: 70px;
+    height: 23px;
 }
 
 .water {
@@ -10,6 +12,8 @@
     color: white;
     text-align: center;
     border-radius: 5px;
+    width: 70px;
+    height: 23px;
 }
 
 .grass {
@@ -17,6 +21,8 @@
     color: white;
     text-align: center;
     border-radius: 5px;
+    width: 70px;
+    height: 23px;
 }
 
 .electric {
@@ -24,6 +30,8 @@
     color: white;
     text-align: center;
     border-radius: 5px;
+    width: 70px;
+    height: 23px;
 }
 
 .psychic {
@@ -31,6 +39,8 @@
     color: white;
     text-align: center;
     border-radius: 5px;
+    width: 70px;
+    height: 23px;
 }
 
 .ice {
@@ -38,6 +48,8 @@
     color: white;
     text-align: center;
     border-radius: 5px;
+    width: 70px;
+    height: 23px;
 }
 
 .dragon {
@@ -45,6 +57,8 @@
     color: white;
     text-align: center;
     border-radius: 5px;
+    width: 70px;
+    height: 23px;
 }
 
 .dark {
@@ -52,6 +66,8 @@
     color: white;
     text-align: center;
     border-radius: 5px;
+    width: 70px;
+    height: 23px;
 }
 
 .fairy {
@@ -59,6 +75,8 @@
     color: white;
     text-align: center;
     border-radius: 5px;
+    width: 70px;
+    height: 23px;
 }
 
 .normal {
@@ -66,6 +84,8 @@
     color: white;
     text-align: center;
     border-radius: 5px;
+    width: 70px;
+    height: 23px;
 }
 
 .fighting {
@@ -73,6 +93,8 @@
     color: white;
     text-align: center;
     border-radius: 5px;
+    width: 70px;
+    height: 23px;
 }
 
 .flying {
@@ -80,6 +102,8 @@
     color: white;
     text-align: center;
     border-radius: 5px;
+    width: 70px;
+    height: 23px;
 }
 
 .poison {
@@ -87,6 +111,8 @@
     color: white;
     text-align: center;
     border-radius: 5px;
+    width: 70px;
+    height: 23px;
 }
 
 .ground {
@@ -94,6 +120,8 @@
     color: white;
     text-align: center;
     border-radius: 5px;
+    width: 70px;
+    height: 23px;
 }
 
 .rock {
@@ -101,6 +129,8 @@
     color: white;
     text-align: center;
     border-radius: 5px;
+    width: 70px;
+    height: 23px;
 }
 
 .bug {
@@ -108,6 +138,8 @@
     color: white;
     text-align: center;
     border-radius: 5px;
+    width: 70px;
+    height: 23px;
 }
 
 .ghost {
@@ -115,6 +147,8 @@
     color: white;
     text-align: center;
     border-radius: 5px;
+    width: 70px;
+    height: 23px;
 }
 
 .steel {
@@ -122,4 +156,6 @@
     color: white;
     text-align: center;
     border-radius: 5px;
+    width: 70px;
+    height: 23px;
 }
