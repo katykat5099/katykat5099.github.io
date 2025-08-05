@@ -3,18 +3,18 @@
     <link rel="stylesheet" href="stylesheets/style.css">
     <head>
         <title>Main Page</title>
-        <div class="titlehead"> <!-- This "titlehead" class is used for modifying the entire head section -->
-            <div class="header"> <!-- This "header" class is used for the title or "logo" -->
-                <h1>Katy's Projects</h1>
-            </div>
-            <div class="explore"> <!-- This class "explore" is for the buttons -->
-                <a href="alphaworld/minecraft_projects.html" class="headerbutton">Minecraft Projects</a>
-                <a href="mystie_forest/mystie_forest.html" class="headerbutton">Mystie Forest</a>
-            </div>
-        </div>
     </head>
 
     <body>
+        <div id="header-container"></div>
+        <script>
+            fetch('header.html')
+                .then(res => res.text())
+                .then(html => {
+                    document.getElementById('header-container').innerHTML = html;
+            });
+        </script>
+        
         <div class="foreground">
             <h1 class="welcomer">Welcome</h1>
             <div class="description">
@@ -25,4 +25,5 @@
             </div>
         </div>
     </body>
+
 </html>
