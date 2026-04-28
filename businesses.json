@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Example Business",
+    "category": "Restaurant",
+    "phone": "204-555-1234",
+    "email": "info@example.com",
+    "website": "https://example.com",
+    "address": "154 Test Rd, Testing, TS"
+  },
+  {
+    "name": "Another Business",
+    "category": "Retail",
+    "phone": "204-555-5678",
+    "email": "",
+    "website": "",
+    "address": ""
+  }
+]
