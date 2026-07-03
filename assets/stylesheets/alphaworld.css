@@ -1,6 +1,8 @@
 .projecttitle {
-    padding-top:      30px;
+    padding:          30px;
+    margin:           20px;
     font-family:      Verdana, Geneva, Tahoma, sans-serif;
+    border:           3px solid #010101
 }
 
 div.buttonswrap {
