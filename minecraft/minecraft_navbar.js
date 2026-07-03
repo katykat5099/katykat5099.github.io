@@ -30,7 +30,7 @@
         });
     }
 
-    fetch(`${minecraftRoot}minecraft_header.html`)
+    fetch(`${minecraftRoot}minecraft_navbar.html`)
         .then((response) => response.ok ? response.text() : fallbackHeader)
         .then(applyHeader)
         .catch(() => applyHeader(fallbackHeader));
