@@ -6,7 +6,7 @@
 <div>
   <h1 class="welcomer">Minecraft Projects</h1>
   <div class="buttonswrap">
-    <a href="alphaworld/alphaworld1.html" data-minecraft-href="alphaworld/alphaworld1.html" class="minecraftbutton">ALPHA WORLD</a>
+    <a href="alphaworld/alphaworld.html" data-minecraft-href="alphaworld/alphaworld.html" class="minecraftbutton">ALPHA WORLD</a>
     <a href="elyxion/elyxion.html" data-minecraft-href="elyxion/elyxion.html" class="minecraftbutton">Elyxion</a>
   </div>
   <div class="spacing">
