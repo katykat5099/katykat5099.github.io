@@ -6,13 +6,17 @@
 <div>
   <h1 class="welcomer">Minecraft Projects</h1>
   <div class="buttonswrap">
-    <a href="alphaworld/alphaworld.html" data-minecraft-href="alphaworld/alphaworld.html" class="minecraftbutton">ALPHA WORLD</a>
+    <a href="alphaworld/alphaworld.html" data-minecraft-href="alphaworld/alphaworld.html" class="minecraftbutton"
+      >ALPHA WORLD</a
+    >
     <a href="elyxion/elyxion.html" data-minecraft-href="elyxion/elyxion.html" class="minecraftbutton">Elyxion</a>
+    <a href="minecrap/minecrap.html" data-minecraft-href="minecrap/minecrap.html" class="minecraftbutton">MineCrap</a>
   </div>
   <div class="spacing">
     <hr class="divider" />
   </div>
-</div>`;
+</div>
+`;
 
     if (!container) {
         return;
