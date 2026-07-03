@@ -10,8 +10,11 @@
     <div class="explore"> <!-- This class "explore" is for the buttons -->
         <a href="minecraft/minecraft_projects.html" data-root-href="minecraft/minecraft_projects.html" class="headerbutton">Minecraft Projects</a>
         <a href="mystie_forest/mystie_forest.html" data-root-href="mystie_forest/mystie_forest.html" class="headerbutton">Mystie Forest</a>
+        <a href="discord/discord_projects.html" data-root-href="discord/discord_projects.html" class="headerbutton">Discord Projects</a>
+        <a href="shinespace/shinespace.html" data-root-href="shinespace/shinespace.html" class="headerbutton">ShineSpace</a>
     </div>
-</div>`;
+</div>
+`;
 
     if (!container) {
         return;
