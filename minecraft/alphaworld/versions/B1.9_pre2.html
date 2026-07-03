@@ -3,21 +3,14 @@
     <link rel="stylesheet" href="../../../assets/stylesheets/style.css">
     <link rel="stylesheet" href="../../../assets/stylesheets/alphaworld.css">
     <head>
-        <title>Beta 1.8 Pre-release</title>
-        <div class="titlehead"> <!-- This "titlehead" class is used for modifying the entire head section -->
-            <div class="header"> <!-- This "header" class is used for the title or "logo" -->
-                <h1>Katy's Projects</h1>
-            </div>
-            <div class="explore"> <!-- This class "explore" is for the buttons -->
-                <a href="../../minecraft_projects.html" class="headerbutton">Minecraft Projects</a>
-                <a href="../../../mystie_forest/mystie_forest.html" class="headerbutton">Mystie Forest</a>
-            </div>
-        </div>
+        <title>Beta 1.9 Pre-release 2</title>
     </head>
 
     <body>
+        <div id="header-container"></div>
+        <script src="../../../common/header.js" data-root="../../../"></script>
         <div class="foreground">
-            <h1 class="welcomer"><a href="https://minecraft.wiki/w/Java_Edition_Beta_1.8_Pre-release">Minecraft Beta 1.8 Pre-release</a></h1>
+            <h1 class="welcomer"><a href="https://minecraft.wiki/w/Java_Edition_Beta_1.9_Prerelease_2">Minecraft Beta 1.9 Prerelease 2</a></h1>
             <div class="spacing">
                 <hr class="divider">
             </div>
@@ -26,62 +19,32 @@
                 <h1>New things since last version:</h1>
                 <div>
                     <p class="itempic"> <!-- List of new stuff -->
-                        <a href="https://minecraft.wiki/w/Glass_Pane"><img src="../items/102GlassPane.png" alt="Glass Pane"></a>
-                        <a href="https://minecraft.wiki/w/Iron_Bars"><img src="../items/101IronBars.png" alt="Iron Bars"></a>
-                        <a href="https://minecraft.wiki/w/Fence_Gate"><img src="../items/107FenceGate.png" alt="Fence Gate"></a>
-                        <a href="https://minecraft.wiki/w/Stone_Bricks"><img src="../items/98StoneBrick.png" alt="Stone Bricks"></a>
-                        <a href="https://minecraft.wiki/w/Cracked_Stone_Bricks"><img src="../items/98.2CrackedStoneBrick.png" alt="Cracked Stone Bricks"></a>
-                        <a href="https://minecraft.wiki/w/Mossy_Stone_Bricks"><img src="../items/98.1MossyStoneBrick.png" alt="Mossy Stone Bricks"></a>
-                        <a href="https://minecraft.wiki/w/Stone_Brick_Slab"><img src="../items/44.5StoneBrickSlab.png" alt="Stone Brick Slab"></a>
-                        <a href="https://minecraft.wiki/w/Stone_Brick_Stairs"><img src="../items/109StoneBrickStairs.png" alt="Stone Brick Stairs"></a>
-                        <a href="https://minecraft.wiki/w/Vines"><img src="../items/106Vines.png" alt="Vines"></a>
-                        <a href="https://minecraft.wiki/w/Infested_Block"><img src="../items/97StoneMonsterEgg.png" alt="Infested Blocks"></a>
-                        <a href="https://minecraft.wiki/w/Brick_Slab"><img src="../items/44.4BrickSlab.png" alt="Brick Slab"></a>
-                        <a href="https://minecraft.wiki/w/Brick_Stairs"><img src="../items/108BrickStairs.png" alt="Brick Stairs"></a>
-                        <a href="https://minecraft.wiki/w/Mushroom_Block"><img src="../items/99BrownMushroomBlock.png" alt="Mushroom Blocks"></a>
-                        <a href="https://minecraft.wiki/w/Melon"><img src="../items/103MelonBlock.png" alt="Melon"></a>
-                        <a href="https://minecraft.wiki/w/Melon_Slice"><img src="../items/360Melon.png" alt="Melon Slice"></a>
-                        <a href="https://minecraft.wiki/w/Melon_Seeds"><img src="../items/362MelonSeeds.png" alt="Melon Seeds"></a>
-                        <a href="https://minecraft.wiki/w/Pumpkin_Seeds"><img src="../items/361PumpkinSeeds.png" alt="Pumpkin Seeds"></a>
-                        <a href="https://minecraft.wiki/w/Raw_Chicken"><img src="../items/365RawChicken.png" alt="Raw Chicken"></a>
-                        <a href="https://minecraft.wiki/w/Cooked_Chicken"><img src="../items/366CookedChicken.png" alt="Cooked Chicken"></a>
-                        <a href="https://minecraft.wiki/w/Raw_Beef"><img src="../items/363RawBeef.png" alt="Raw Beef"></a>
-                        <a href="https://minecraft.wiki/w/Steak"><img src="../items/364Steak.png" alt="Steak"></a>
-                        <a href="https://minecraft.wiki/w/Rotten_Flesh"><img src="../items/367RottenFlesh.png" alt="Rotten Flesh"></a>
-                        <a href="https://minecraft.wiki/w/Ender_Pearl"><img src="../items/368EnderPearl.png" alt="Ender Pearl"></a>
+                        <a href="https://minecraft.wiki/w/Blaze_powder"><img src="../items/377BlazePowder.png" alt="Blaze Powder"></a>
+                        <a href="https://minecraft.wiki/w/Magma_cream"><img src="../items/378MagmaCream.png" alt="Magma Cream"></a>
+                        <a href="https://minecraft.wiki/w/Spider_eye"><img src="../items/375SpiderEye.png" alt="Spider Eye"></a>
+                        <a href="https://minecraft.wiki/w/Fermented_spider_eye"><img src="../items/376FermentedSpiderEye.png" alt="Fermented Spider Eye"></a>
+                        <a href="https://minecraft.wiki/w/Glass_bottle"><img src="../items/374GlassBottle.png" alt="Glass Bottle"></a>
+                        <a href="https://minecraft.wiki/w/11"><img src="../items/2266Disc11.png" alt="Disc 11"></a>
+                        <a href="https://minecraft.wiki/w/Music_Disc_blocks"><img src="../items/2258DiscBlocks.png" alt="Disc 'Blocks'"></a>
+                        <a href="https://minecraft.wiki/w/Chirp"><img src="../items/2259DiscChirp.png" alt="Disc 'Chirp'"></a>
+                        <a href="https://minecraft.wiki/w/Far"><img src="../items/2260DiscFar.png" alt="Disc 'Far'"></a>
+                        <a href="https://minecraft.wiki/w/Mall"><img src="../items/2261DiscMall.png" alt="Disc 'Mall'"></a>
+                        <a href="https://minecraft.wiki/w/Mellohi"><img src="../items/2262DiscMellohi.png" alt="Disc 'Mellohi'"></a>
+                        <a href="https://minecraft.wiki/w/Stal"><img src="../items/2263DiscStal.png" alt="Disc 'Stal'"></a>
+                        <a href="https://minecraft.wiki/w/Strad"><img src="../items/2264DiscStrad.png" alt="Disc 'Strad'"></a>
+                        <a href="https://minecraft.wiki/w/Ward"><img src="../items/2265DiscWard.png" alt="Disc 'Ward'"></a>
                     </p>
                     <p>
-                        <b>NEW MOBS</b>: 
-                        <a href="https://minecraft.wiki/w/Enderman">Endermen</a>,
-                        <a href="https://minecraft.wiki/w/Cave_Spider">Cave Spiders</a>,
-                        <a href="https://minecraft.wiki/w/Silverfish">Silverfish</a>,<br><br>
-                        <b>NEW WORLD GEN</b>:
-                        <a href="https://minecraft.wiki/w/Ocean">Ocean Biome</a>,
-                        <a href="https://minecraft.wiki/w/Extreme_Hills">Extreme Hills Biome</a>,<br>
-                        <a href="https://minecraft.wiki/w/Village">Villages (No villagers)</a>,
-                        <a href="https://minecraft.wiki/w/Mineshaft">Mineshafts</a>,
-                        <a href="https://minecraft.wiki/w/Stronghold">Stronghold</a>,
-                        <a href="https://minecraft.wiki/w/Ravine">Ravines</a>,<br><br>
+                        <!-- <b>NEW MOBS</b>:<br> -->
+                        <!-- <b>NEW WORLD GEN</b>:<br> -->
                         <b>MECHANICS</b>:
-                        <a href="https://minecraft.wiki/w/Hunger">Hunger</a>,
-                        <a href="https://minecraft.wiki/w/Sprinting">Sprinting</a>,
-                        <a href="https://minecraft.wiki/w/Critical_hits">Critical Hits</a>,
-                        <a href="https://minecraft.wiki/w/Blocking">Blocking (With Sword)</a>,
-                        <a href="https://minecraft.wiki/w/Experience">EXP (Functionless)</a>,<br><br>
+                        <br><a href="https://minecraft.wiki/w/Breeding">Animal Breeding</a>,<br>
+                        Brewing (Technically),<br>
                         <b>MORE/OTHER</b>:<br>
-                        <a href="https://minecraft.wiki/w/Huge_mushroom">Giant Mushrooms</a>,<br>
-                        <a href="https://minecraft.wiki/w/Void_fog">Void Fog</a>,<br>
-                        <a href="https://minecraft.wiki/w/Effect">Potion/Effects (No Potions yet.)</a>,
-                        <br>Passive mobs do not despawn, <br>You can use shears to get plants, <br>Fixed many item entity models, 
-                        <br>Many new biomes and complete rehaul of world generation, 
-                        <br>Biomes come in much larger, flatter sizes, aside from the new Hills biome, 
-                        <br>Swamps changed a bit and include vines on the trees, <br>Removed snow & ice from Taigas,
-                        <br>Sea level was lowered by 1 in the Y axis, <br>Daylight improved, <br>Brightness setting added in options, 
-                        <br>Lighting was completely changed, <br>Gravel & Sand beaches were removed / redone, 
-                        <br><a href="https://minecraft.wiki/w/Far_Lands">Far Lands</a> removed,
-                        <br>Creative Mode added,
-                        <br>New Title Screen,
-                        <br>New multiplayer menu,
+                        <a href="https://minecraft.wiki/w/Hardcore">Hardcore</a>,<br>
+                        Milk cures your status condition,<br>
+                        Zombies are healthier,<br>
+                        You can now view yourself from the front using F5,<br>
 
                         <p>Many Gameplay Changes and Bug fixes...</p>
                     </p>
@@ -92,7 +55,7 @@
                 <div>
                     <p class="itempic"> <!-- List of Blocks sorted by Item ID -->
                         <a href="https://minecraft.wiki/w/Stone"><img src="../items/1Stone_2.png" alt="Stone"></a>
-                        <a href="https://minecraft.wiki/w/Grass_Block"><img src="../items/2Grass_2.png" alt="Grass"></a>
+                        <a href="https://minecraft.wiki/w/Grass_Block"><img src="../items/2Grass_3.png" alt="Grass"></a>
                         <a href="https://minecraft.wiki/w/Dirt"><img src="../items/3Dirt_2.png" alt="Dirt"></a>
                         <a href="https://minecraft.wiki/w/Cobblestone"><img src="../items/4Cobblestone_3.png" alt="Cobblestone"></a>
                         <a href="https://minecraft.wiki/w/Planks"><img src="../items/5Planks_2.png" alt="Planks"></a>
@@ -174,7 +137,7 @@
                         <a href="https://minecraft.wiki/w/Obsidian"><img src="../items/49Obsidian_2.png" alt="Obsidian"></a>
                         <a href="https://minecraft.wiki/w/Torch"><img src="../items/50Torch.png" alt="Torch"></a>
                         <a href="https://minecraft.wiki/w/Fire"><img src="../items/51Fire.png" alt="Fire"></a>
-                        <a href="https://minecraft.wiki/w/Monster_Spawner"><img src="../items/52MonsterSpawner_2.png" alt="Monster Spawner"></a>
+                        <a href="https://minecraft.wiki/w/Monster_Spawner"><img src="../items/52MonsterSpawner_3.png" alt="Monster Spawner"></a>
                         <a href="https://minecraft.wiki/w/Wooden_Stairs"><img src="../items/53WoodStairs_2.png" alt="Wooden Stairs"></a>
                         <a href="https://minecraft.wiki/w/Chest"><img src="../items/54Chest_2.png" alt="Chest"></a>
                         <a href="https://minecraft.wiki/w/Redstone_Dust"><img src="../items/55RedstoneWire_1.png" alt="Redstone Wire"></a>
@@ -236,6 +199,12 @@
                         <a href="https://minecraft.wiki/w/Fence_Gate"><img src="../items/107FenceGate.png" alt="Fence Gate"></a>
                         <a href="https://minecraft.wiki/w/Brick_Stairs"><img src="../items/108BrickStairs.png" alt="Brick Stairs"></a>
                         <a href="https://minecraft.wiki/w/Stone_Brick_Stairs"><img src="../items/109StoneBrickStairs.png" alt="Stone Brick Stairs"></a>
+                        <a href="https://minecraft.wiki/w/Mycelium"><img src="../items/110Mycelium.png" alt="Mycelium"></a>
+                        <a href="https://minecraft.wiki/w/Lily_pad"><img src="../items/111LilyPad.png" alt="Lily Pad"></a>
+                        <a href="https://minecraft.wiki/w/Nether_bricks"><img src="../items/112NetherBrick.png" alt="Nether Bricks"></a>
+                        <a href="https://minecraft.wiki/w/Nether_brick_fence"><img src="../items/113NetherBrickFence.png" alt="Nether Brick Fence"></a>
+                        <a href="https://minecraft.wiki/w/Nether_brick_stairs"><img src="../items/114NetherBrickStairs.png" alt="Nether Brick Stairs"></a>
+                        <a href="https://minecraft.wiki/w/Nether_wart"><img src="../items/115NetherWart.png" alt="Nether Wart"></a>
                     </p>
                 </div>
                 <h1>Items in this Version:</h1>
@@ -370,9 +339,28 @@
                         <a href="https://minecraft.wiki/w/Cooked_Chicken"><img src="../items/366CookedChicken.png" alt="Cooked Chicken"></a>
                         <a href="https://minecraft.wiki/w/Rotten_Flesh"><img src="../items/367RottenFlesh.png" alt="Rotten Flesh"></a>
                         <a href="https://minecraft.wiki/w/Ender_Pearl"><img src="../items/368EnderPearl.png" alt="Ender Pearl"></a>
-
+                        <a href="https://minecraft.wiki/w/Blaze_rod"><img src="../items/369BlazeRod.png" alt="Blaze Rod"></a>
+                        <a href="https://minecraft.wiki/w/Ghast_tear"><img src="../items/370GhastTear.png" alt="Ghast Tear"></a>
+                        <a href="https://minecraft.wiki/w/Gold_nugget"><img src="../items/371GoldNugget.png" alt="Gold Nugget"></a>
+                        <a href="https://minecraft.wiki/w/Nether_wart"><img src="../items/372NetherWart.png" alt="Nether Wart"></a>
+                        <a href="https://minecraft.wiki/w/Potion"><img src="../items/373Potion-Mundane.png" alt="Mundane Potion"></a>
+                        <a href="https://minecraft.wiki/w/Glass_bottle"><img src="../items/374GlassBottle.png" alt="Glass Bottle"></a>
+                        <a href="https://minecraft.wiki/w/Spider_eye"><img src="../items/375SpiderEye.png" alt="Spider Eye"></a>
+                        <a href="https://minecraft.wiki/w/Fermented_spider_eye"><img src="../items/376FermentedSpiderEye.png" alt="Fermented Spider Eye"></a>
+                        <a href="https://minecraft.wiki/w/Blaze_powder"><img src="../items/377BlazePowder.png" alt="Blaze Powder"></a>
+                        <a href="https://minecraft.wiki/w/Magma_cream"><img src="../items/378MagmaCream.png" alt="Magma Cream"></a>
+                        
                         <a href="https://minecraft.wiki/w/Music_Disc_13"><img src="../items/2256Disc13.png" alt="Disc 13"></a>
                         <a href="https://minecraft.wiki/w/Music_Disc_cat"><img src="../items/2257DiscCat.png" alt="Disc 'Cat'"></a>
+                        <a href="https://minecraft.wiki/w/Music_Disc_blocks"><img src="../items/2258DiscBlocks.png" alt="Disc 'Blocks'"></a>
+                        <a href="https://minecraft.wiki/w/Chirp"><img src="../items/2259DiscChirp.png" alt="Disc 'Chirp'"></a>
+                        <a href="https://minecraft.wiki/w/Far"><img src="../items/2260DiscFar.png" alt="Disc 'Far'"></a>
+                        <a href="https://minecraft.wiki/w/Mall"><img src="../items/2261DiscMall.png" alt="Disc 'Mall'"></a>
+                        <a href="https://minecraft.wiki/w/Mellohi"><img src="../items/2262DiscMellohi.png" alt="Disc 'Mellohi'"></a>
+                        <a href="https://minecraft.wiki/w/Stal"><img src="../items/2263DiscStal.png" alt="Disc 'Stal'"></a>
+                        <a href="https://minecraft.wiki/w/Strad"><img src="../items/2264DiscStrad.png" alt="Disc 'Strad'"></a>
+                        <a href="https://minecraft.wiki/w/Ward"><img src="../items/2265DiscWard.png" alt="Disc 'Ward'"></a>
+                        <a href="https://minecraft.wiki/w/11"><img src="../items/2266Disc11.png" alt="Disc 11"></a>
                     </p>
                 </div>
                 <h1>Mobs in this Version:</h1>
@@ -388,14 +376,20 @@
                         <a href="https://minecraft.wiki/w/Zombified_Piglin">Zombie Pigman</a>,
                         <a href="https://minecraft.wiki/w/Enderman">Endermen</a>,
                         <a href="https://minecraft.wiki/w/Cave_Spider">Cave Spiders</a>,
-                        <a href="https://minecraft.wiki/w/Silverfish">Silverfish</a></p>
+                        <a href="https://minecraft.wiki/w/Silverfish">Silverfish</a>,
+                        <a href="https://minecraft.wiki/w/Blaze">Blaze</a>,
+                        <a href="https://minecraft.wiki/w/Magma_cube">Magma Cube</a></p>
+
                     <!-- Passive Mobs -->
                     <p><a href="https://minecraft.wiki/w/Pig">Pig (lightning turns into zombie pigman)</a>, 
                         <a href="https://minecraft.wiki/w/Sheep">Sheep</a> (Dyeable), 
                         <a href="https://minecraft.wiki/w/Cow">Cow</a>, 
                         <a href="https://minecraft.wiki/w/Chicken">Chicken</a>,
                         <a href="https://minecraft.wiki/w/Squid">Squid</a>,
-                        <a href="https://minecraft.wiki/w/Wolf">Wolf</a></p>
+                        <a href="https://minecraft.wiki/w/Wolf">Wolf</a>,
+                        <a href="https://minecraft.wiki/w/Mooshroom">Mooshroom</a>,
+                        <a href="https://minecraft.wiki/w/Snow_golem">Snow Golem</a>,
+                        <a href="https://minecraft.wiki/w/Villager">Villager</a></p>
                 </div>
                 <h1>Features in this Version:</h1>
                 <div>
@@ -416,18 +410,23 @@
                     <p><a href="https://minecraft.wiki/w/Blocking">Blocking (With Sword)</a></p>
                     <p><a href="https://minecraft.wiki/w/Experience">EXP (Functionless)</a></p>
                     <p><a href="https://minecraft.wiki/w/Void_fog">Void Fog</a></p>
-                    <p><a href="https://minecraft.wiki/w/Effect">Potion/Effects (No Potions yet.)</a></p>
+                    <p><a href="https://minecraft.wiki/w/Effect">Potion/Effects</a></p>
                     <p><a href="https://minecraft.wiki/w/Creative">Creative Mode</a></p>
+                    <p><a href="https://minecraft.wiki/w/Nether_fortress">Nether Fortress</a></p>
+                    <p><a href="https://minecraft.wiki/w/Breeding">Animal Breeding</a></p>
+                    <p><a href="https://minecraft.wiki/w/Hardcore">Hardcore</a></p>
+                    <p><a href="https://minecraft.wiki/w/Brewing">Brewing/Potions</a></p>
                 </div>
                 <h1>Removed Features:</h1>
                 <div>
-                    <p>Gravel & Sand beaches were removed / redone</p>
-                    <p><a href="https://minecraft.wiki/w/Far_Lands">Far Lands</a> removed</p>
+                    <p>Jumping to get EXP.</p>
+                    <p>TESTIFICATE above villager heads.</p>
                 </div>
-                <!--<h1>Other Information:</h1>
+                <h1>Other Information:</h1>
                 <div>
+                    <p>There are a lot of possible potion combinations, too many to really cover especially since they're not even accessible without hacking.</p>
+                    <p>Since there are potions, there are also different colours and they appear to be determined somehow. Some are Red, some are Green, some are Yellow, etc..</p>
                 </div>
-                --->
             </div>
         </div>
     </body>
