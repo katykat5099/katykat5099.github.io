@@ -90,6 +90,7 @@ div.explore {
     padding:          15px;
     border-radius:    3px;
     border:           2px solid #d48318;
+    font-weight:      bold;
 }
 
 div.titlehead {
