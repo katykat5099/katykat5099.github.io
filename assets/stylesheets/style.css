@@ -23,7 +23,6 @@ div.spacingup{
 }
 
 body {
-    margin:           auto;
     text-align:       center;
 }
 
@@ -58,16 +57,16 @@ a:hover {
 
 div.foreground {
     background-color: #FFF;
-    padding-left:     300px;
-    padding-right:    300px;
+    border:           2px solid #c47c39;
+    margin-top:       5px;
+    padding-left:     10px;
+    padding-right:    10px;
     padding-bottom:   30px;
     border-radius:    8px;
 }
 
 div.header {
     background-color: #FFF;
-    padding-left:     300px;
-    padding-right:    300px;
     padding-top:      40px;
     padding-bottom:   40px;
     text-transform:   uppercase;
@@ -78,8 +77,8 @@ div.header {
 
 div.explore {
     background-color: #e4e1d3;
-    padding-left:     300px;
-    padding-right:    300px;
+    padding-left:     30px;
+    padding-right:    30px;
     padding-top:      21px;
     padding-bottom:   20px;
 }
