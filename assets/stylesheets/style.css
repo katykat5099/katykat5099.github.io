@@ -26,13 +26,16 @@ body {
     text-align:       center;
 }
 
-.title-link,
-.title-link:visited,
-.title-link:hover,
-.title-link:active,
-.title-link:focus {
-    color: inherit;
+.no-link-style,
+.no-link-style:link,
+.no-link-style:visited,
+.no-link-style:hover,
+.no-link-style:active,
+.no-link-style:focus {
+    color:           inherit;
     text-decoration: none;
+    background:      transparent;
+    outline:         none;
 }
 
 a:link {
