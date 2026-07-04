@@ -11,6 +11,7 @@
     >
     <a href="elyxion/elyxion.html" data-minecraft-href="elyxion/elyxion.html" class="minecraftbutton">Elyxion</a>
     <a href="minecrap/minecrap.html" data-minecraft-href="minecrap/minecrap.html" class="minecraftbutton">MineCrap</a>
+    <a href="history/minehistory.html" data-minecraft-href="history/minehistory.html" class="minecraftbutton">MineHistory</a>
   </div>
   <div class="spacing">
     <hr class="divider" />
