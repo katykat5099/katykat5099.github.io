@@ -1,5 +1,6 @@
 html {
     background-color: #b46d2b;
+    color:          #3b1506;
     font-family:      Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size:        15px;
     padding-bottom:   50px;
@@ -11,7 +12,7 @@ html {
 
 .divider {
     height:           3px;
-    background:       black;
+    background:       #cfb5a0;
     border:           none;
 }
 
