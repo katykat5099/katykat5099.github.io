@@ -62,49 +62,46 @@
         </div>
       </div>
     </div>
+    <script src="history-data.js"></script>
     <script>
-      const versions = [
-        { name: "Beta 1.9_pre3", href: "versions/B1.9_pre3.html" },
-        { name: "Beta 1.9_pre2", href: "versions/B1.9_pre2.html" },
-        { name: "Beta 1.9_pre1", href: "versions/B1.9_pre1.html" },
-        { name: "Beta 1.8", href: "versions/B1.8.html" },
-        { name: "Beta 1.8_pre2", href: "versions/B1.8_pre2.html" },
-        { name: "Beta 1.8_pre1", href: "versions/B1.8_pre1.html" },
-        { name: "Beta 1.7.2", href: "versions/B1.7.2.html" },
-        { name: "Beta 1.6.6", href: "versions/B1.6.6.html" },
-        { name: "Beta 1.6.1", href: "versions/B1.6.1.html" },
-        { name: "Beta 1.5_02", href: "versions/B1.5_02.html" },
-        { name: "Beta 1.4_01", href: "versions/B1.4_01.html" },
-        { name: "Beta 1.3_01", href: "versions/B1.3_01.html" },
-        { name: "Beta 1.2", href: "versions/B1.2.html" },
-        { name: "Alpha 1.2.6", href: "versions/A1.2.6.html" },
-        { name: "Alpha 1.1.2_01", href: "versions/A1.1.2_01.html" },
-      ];
+      const { versions, mods } = window.mineHistoryData;
 
-      const mods = [
-        {
-          name: "Battle Towers",
-          href: "mods/battle_towers/battle_towers.html",
-        },
-        {
-          name: "Equivalent Exchange",
-          href: "mods/equivalent_exchange/equivalent_exchange.html",
-        },
-        {
-          name: "IndustrialCraft 2",
-          href: "mods/industrial_craft_2/industrial_craft_2.html",
-        },
-        {
-          name: "The Aether",
-          href: "mods/the_aether/the_aether.html",
-        },
-        {
-          name: "TooManyItems",
-          href: "mods/toomanyitems/toomanyitems.html",
-        },
-      ];
+      function getVersionSortParts(version) {
+        const filename = version.href.split("/").pop().replace(".html", "");
+        const era = filename.startsWith("B") ? 1 : 0;
+        const versionText = filename.slice(1);
+        const prereleaseMatch = versionText.match(/_pre(\d+)$/);
+        const prerelease = prereleaseMatch ? Number(prereleaseMatch[1]) : 99;
+        const normalizedVersion = versionText
+          .replace(/_pre\d+$/, "")
+          .replace("_", ".");
+        const numberParts = normalizedVersion
+          .split(".")
+          .map((numberPart) => Number(numberPart));
+
+        return [era, ...numberParts, prerelease];
+      }
+
+      function sortMinecraftVersions(firstVersion, secondVersion) {
+        const firstParts = getVersionSortParts(firstVersion);
+        const secondParts = getVersionSortParts(secondVersion);
+        const partCount = Math.max(firstParts.length, secondParts.length);
+
+        for (let index = 0; index < partCount; index += 1) {
+          const firstPart = firstParts[index] || 0;
+          const secondPart = secondParts[index] || 0;
+
+          if (firstPart !== secondPart) {
+            return secondPart - firstPart;
+          }
+        }
+
+        return firstVersion.name.localeCompare(secondVersion.name);
+      }
 
       document.getElementById("version-list").innerHTML = versions
+        .slice()
+        .sort(sortMinecraftVersions)
         .map(
           (version) =>
             `<li><a href="${version.href}">${version.name}</a></li>`,
@@ -112,6 +109,7 @@
         .join("");
 
       document.getElementById("mod-list").innerHTML = mods
+        .slice()
         .sort((firstMod, secondMod) =>
           firstMod.name.localeCompare(secondMod.name),
         )
