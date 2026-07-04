@@ -2,13 +2,23 @@ div.mystieforestbar {
     border-radius:    5px;
     border:           2px solid #d48318;
     background-color: gold;
-    text-align: center;
+    text-align:       center;
+    display:          flex;
+    flex-wrap:        wrap;
+    justify-content:  center;
+    gap:              8px;
+    padding:          8px;
 }
 
 .mystiebutton {
-    font-weight: bold;
-    padding-left: 20px;
-    padding-right: 20px;
+    display:          inline-flex;
+    align-items:      center;
+    justify-content:  center;
+    font-weight:      bold;
+    min-height:       36px;
+    padding:          8px 20px;
+    max-width:        100%;
+    overflow-wrap:    anywhere;
 }
 
 .stylespriteimage {
@@ -19,4 +29,10 @@ div.mystieforestbar {
     margin: auto;
     border: 2px solid #d48318;
     border-radius: 4px;
+}
+
+@media (max-width: 520px) {
+    .mystiebutton {
+        width:        100%;
+    }
 }

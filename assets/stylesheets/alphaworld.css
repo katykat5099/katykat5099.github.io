@@ -8,12 +8,22 @@
 div.buttonswrap {
     border:           5px solid #ffc375;
     padding:          20px;
+    display:          flex;
+    flex-wrap:        wrap;
+    justify-content:  center;
+    gap:              10px;
 }
 
 .minecraftbutton {
     font-weight:      bold;
     padding:          15px;
     background-color: gold;
+    display:          inline-flex;
+    align-items:      center;
+    justify-content:  center;
+    min-height:       48px;
+    max-width:        100%;
+    overflow-wrap:    anywhere;
 }
 
 .versionbutton {
@@ -36,4 +46,16 @@ div.schedule {
 
 p.itempic a:hover {
     opacity:          0.5;
+}
+
+@media (max-width: 520px) {
+    div.buttonswrap {
+        padding:      12px;
+        gap:          8px;
+    }
+
+    .minecraftbutton {
+        width:        100%;
+        padding:      12px;
+    }
 }

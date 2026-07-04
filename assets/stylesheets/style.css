@@ -1,10 +1,12 @@
 html {
     background-color: #b46d2b;
-    display:          table;
-    margin:           auto;
     font-family:      Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size:        15px;
     padding-bottom:   50px;
+}
+
+* {
+    box-sizing:       border-box;
 }
 
 .divider {
@@ -24,6 +26,9 @@ div.spacingup{
 
 body {
     text-align:       center;
+    width:            min(100%, 820px);
+    margin:           auto;
+    padding:          0 10px;
 }
 
 .no-link-style,
@@ -70,32 +75,45 @@ div.foreground {
 
 div.header {
     background-color: #FFF;
-    padding-top:      40px;
-    padding-bottom:   40px;
+    padding:          64px;
     text-transform:   uppercase;
     text-shadow:      2px 2px lightgray;
     font-size:        large;
     text-align:       center;
 }
 
+div.header h1 {
+    margin:           0;
+    font-size:        45px;
+    overflow-wrap:    anywhere;
+}
+
 div.explore {
     background-color: #e4e1d3;
-    padding-left:     30px;
-    padding-right:    30px;
-    padding-top:      21px;
-    padding-bottom:   20px;
+    padding:          4px;
+    display:          flex;
+    flex-wrap:        wrap;
+    justify-content:  center;
+    gap:              4px;
 }
 
 .headerbutton {
     background-color: gold;
     font-size:        20px;
-    padding:          15px;
+    padding:          14px 15px;
     border-radius:    3px;
     border:           2px solid #d48318;
     font-weight:      bold;
+    display:          inline-flex;
+    align-items:      center;
+    justify-content:  center;
+    min-height:       54px;
+    max-width:        100%;
+    overflow-wrap:    anywhere;
 }
 
 div.titlehead {
+    margin-top: 6px;
     border-radius:    5px;
     border:           5px solid #e7a821;
 }
@@ -103,15 +121,44 @@ div.titlehead {
 .welcomer {
     padding-top:      30px;
     font-size:        36px;
+    overflow-wrap:    anywhere;
 }
 
 div.description {
-    inline-size:      700px;
+    inline-size:      min(100%, 700px);
     overflow-wrap:    break-word;
     font-size:        larger;
     text-align:       left;
+    margin:           auto;
 }
 
 div.line {
     text-align:       left;
+}
+
+@media (max-width: 520px) {
+    body {
+        padding:      0 6px;
+    }
+
+    div.header {
+        padding:      24px 8px;
+        font-size:    medium;
+    }
+
+    div.explore {
+        padding:      12px;
+        gap:          8px;
+    }
+
+    .headerbutton {
+        width:        100%;
+        font-size:    18px;
+        min-height:   48px;
+        padding:      12px;
+    }
+
+    .welcomer {
+        font-size:    30px;
+    }
 }
