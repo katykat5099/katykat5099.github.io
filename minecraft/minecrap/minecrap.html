@@ -1,24 +1,325 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-    <link rel="stylesheet" href="../../assets/stylesheets/style.css">
-    <link rel="stylesheet" href="../../assets/stylesheets/alphaworld.css">
-    <head>
-        <title>MineCrap - Main</title>
-    </head>
+  <link rel="stylesheet" href="../../assets/stylesheets/style.css" />
+  <link rel="stylesheet" href="../../assets/stylesheets/alphaworld.css" />
+  <style>
+    table {
+      border-collapse: collapse;
+      margin: auto;
+      margin-left: 100px;
+      font-size: medium;
+    }
+    th,
+    td {
+      border: 1px solid #000;
+      padding: 1px;
+      text-align: center;
+    }
+    .green {
+      background-color: greenyellow;
+    }
+  </style>
+  <head>
+    <title>MineCrap - Main</title>
+  </head>
 
-    <body>
-        <div id="header-container"></div>
-        <script src="../../common/header.js" data-root="../../"></script>
-        <div class="foreground">
-            <div id="minecraft-header-container"></div>
-            <script src="../minecraft_navbar.js" data-minecraft-root="../"></script>
-            <h1 class="projecttitle">MineCrap</h1>
-            <div class="spacing">
-                <hr class="divider">
-            </div>
-            <div class="description">
-                <p>WIP</p>
-            </div>
-        </div>
-    </body>
+  <body>
+    <div id="header-container"></div>
+    <script src="../../common/header.js" data-root="../../"></script>
+    <div class="foreground">
+      <div id="minecraft-header-container"></div>
+      <script src="../minecraft_navbar.js" data-minecraft-root="../"></script>
+      <h1 class="projecttitle">MineCrap</h1>
+      <div class="spacing">
+        <hr class="divider" />
+      </div>
+      <div class="description">
+        <p style="font-weight: bold">
+          What the heck is MineCrap? Is that a typo?
+        </p>
+        <p>
+          You read that correctly. This is indeed called MineCrap. It's a new
+          Minecraft Era Project using a series of Modpacks called "MineCrap".
+        </p>
+        <p>
+          <b>What's the gimmick?</b> Like ALPHA WORLD, the world goes through a
+          series of Minecraft updates. However, this time there are Mods added.
+        </p>
+        <p>
+          There's 5 versions that are currently planned to go through. <br />
+          Here's a spreadsheet summary of the planned mods.
+        </p>
+        <table>
+          <thead>
+            <tr>
+              <th>Mod</th>
+              <th>b1.7.3</th>
+              <th>1.2.5</th>
+              <th>1.4.7</th>
+              <th>1.7.10</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Equivalent Exchange [3*]</td>
+              <td class="green"></td>
+              <td class="green"></td>
+              <td class="green"></td>
+              <td class="green"></td>
+            </tr>
+            <tr>
+              <td>Battle Towers</td>
+              <td class="green"></td>
+              <td class="green"></td>
+              <td class="green"></td>
+              <td class="green"></td>
+            </tr>
+            <tr>
+              <td>BuildCraft</td>
+              <td class="green"></td>
+              <td class="green"></td>
+              <td class="green"></td>
+              <td class="green"></td>
+            </tr>
+            <tr>
+              <td>Doggy Talents</td>
+              <td class="green"></td>
+              <td class="green"></td>
+              <td class="green"></td>
+              <td class="green"></td>
+            </tr>
+            <tr>
+              <td>IndustrialCraft 2</td>
+              <td class="green"></td>
+              <td class="green"></td>
+              <td class="green"></td>
+              <td class="green"></td>
+            </tr>
+            <tr>
+              <td>Inventory Tweaks</td>
+              <td class="green"></td>
+              <td class="green"></td>
+              <td class="green"></td>
+              <td class="green"></td>
+            </tr>
+            <tr>
+              <td>Millenaire</td>
+              <td class="green"></td>
+              <td class="green"></td>
+              <td class="green"></td>
+              <td class="green"></td>
+            </tr>
+            <tr>
+              <td>Mo' Creatures</td>
+              <td class="green"></td>
+              <td class="green"></td>
+              <td class="green"></td>
+              <td class="green"></td>
+            </tr>
+            <tr>
+              <td>Nether Ores</td>
+              <td class="green"></td>
+              <td class="green"></td>
+              <td class="green"></td>
+              <td class="green"></td>
+            </tr>
+            <tr>
+              <td>Rei's Minimap</td>
+              <td class="green"></td>
+              <td class="green"></td>
+              <td class="green"></td>
+              <td class="green"></td>
+            </tr>
+            <tr>
+              <td>The Aether</td>
+              <td class="green"></td>
+              <td class="green"></td>
+              <td class="green"></td>
+              <td class="green"></td>
+            </tr>
+            <tr>
+              <td>Timber</td>
+              <td class="green"></td>
+              <td class="green"></td>
+              <td class="green"></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>TooManyItems</td>
+              <td class="green"></td>
+              <td class="green"></td>
+              <td class="green"></td>
+              <td class="green"></td>
+            </tr>
+            <tr>
+              <td>TropiCraft</td>
+              <td class="green"></td>
+              <td class="green"></td>
+              <td class="green"></td>
+              <td class="green"></td>
+            </tr>
+            <tr>
+              <td>Twilight Forest</td>
+              <td class="green"></td>
+              <td class="green"></td>
+              <td class="green"></td>
+              <td class="green"></td>
+            </tr>
+            <tr>
+              <td>Chococraft</td>
+              <td></td>
+              <td class="green"></td>
+              <td class="green"></td>
+              <td class="green"></td>
+            </tr>
+            <tr>
+              <td>Computer Craft</td>
+              <td></td>
+              <td class="green"></td>
+              <td class="green"></td>
+              <td class="green"></td>
+            </tr>
+            <tr>
+              <td>Dragon Mounts</td>
+              <td></td>
+              <td class="green"></td>
+              <td class="green"></td>
+              <td class="green"></td>
+            </tr>
+            <tr>
+              <td>Extra Biomes XL</td>
+              <td></td>
+              <td class="green"></td>
+              <td class="green"></td>
+              <td class="green"></td>
+            </tr>
+            <tr>
+              <td>Forestry</td>
+              <td></td>
+              <td class="green"></td>
+              <td class="green"></td>
+              <td class="green"></td>
+            </tr>
+            <tr>
+              <td>Mystcraft</td>
+              <td></td>
+              <td class="green"></td>
+              <td class="green"></td>
+              <td class="green"></td>
+            </tr>
+            <tr>
+              <td>Not Enough Items*</td>
+              <td></td>
+              <td class="green"></td>
+              <td class="green"></td>
+              <td class="green"></td>
+            </tr>
+            <tr>
+              <td>Pam's HarvestCraft</td>
+              <td></td>
+              <td class="green"></td>
+              <td class="green"></td>
+              <td class="green"></td>
+            </tr>
+            <tr>
+              <td>Railcraft</td>
+              <td></td>
+              <td class="green"></td>
+              <td class="green"></td>
+              <td class="green"></td>
+            </tr>
+            <tr>
+              <td>Thaumcraft</td>
+              <td></td>
+              <td class="green"></td>
+              <td class="green"></td>
+              <td class="green"></td>
+            </tr>
+            <tr>
+              <td>Thermal Expansion</td>
+              <td></td>
+              <td class="green"></td>
+              <td class="green"></td>
+              <td class="green"></td>
+            </tr>
+            <tr>
+              <td>Tree Capitator</td>
+              <td></td>
+              <td class="green">x</td>
+              <td class="green">x</td>
+              <td class="green"></td>
+            </tr>
+            <tr>
+              <td>Applied Energistics [2*]</td>
+              <td></td>
+              <td></td>
+              <td class="green"></td>
+              <td class="green"></td>
+            </tr>
+            <tr>
+              <td>Ars Magica [2*]</td>
+              <td></td>
+              <td></td>
+              <td class="green"></td>
+              <td class="green"></td>
+            </tr>
+            <tr>
+              <td>Biomes O' Plenty</td>
+              <td></td>
+              <td></td>
+              <td class="green"></td>
+              <td class="green"></td>
+            </tr>
+            <tr>
+              <td>Dimensional Doors</td>
+              <td></td>
+              <td></td>
+              <td class="green"></td>
+              <td class="green"></td>
+            </tr>
+            <tr>
+              <td>DivineRPG</td>
+              <td></td>
+              <td></td>
+              <td class="green"></td>
+              <td class="green"></td>
+            </tr>
+            <tr>
+              <td>Ender IO</td>
+              <td></td>
+              <td></td>
+              <td class="green"></td>
+              <td class="green"></td>
+            </tr>
+            <tr>
+              <td>Galacticraft</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td class="green"></td>
+            </tr>
+            <tr>
+              <td>Lycanites Mobs</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td class="green"></td>
+            </tr>
+            <tr>
+              <td>PneumaticCraft</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td class="green"></td>
+            </tr>
+          </tbody>
+        </table>
+        <p style="font-size: x-small;">Equivalent Exchange 1 for b1.7.3, then Equivalent Exchange 3 onward.</p>
+        <p style="font-size: x-small;">Not Enough Items TBD</p>
+        <p style="font-size: x-small;">Applied Energistics 1 for 1.4.*, then Applied Energistics 2 onward.</p>
+        <p style="font-size: x-small;">Ars Magica 1 for 1.4.*, then Ars Magica 2 onward.</p>
+        <p style="font-weight: bold;">List is not final.</p>
+      </div>
+    </div>
+  </body>
 </html>
