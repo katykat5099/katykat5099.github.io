@@ -23,7 +23,11 @@ window.mineHistoryData = {
       href: "mods/the_aether/the_aether.html",
     },
     {
-      name: "IndustrialCraft 2",
+      name: "Industrial Craft",
+      href: "mods/industrial_craft/industrial_craft.html",
+    },
+    {
+      name: "Industrial Craft 2",
       href: "mods/industrial_craft_2/industrial_craft_2.html",
     },
     {
