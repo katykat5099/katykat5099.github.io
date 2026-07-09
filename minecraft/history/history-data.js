@@ -46,5 +46,9 @@ window.mineHistoryData = {
       name: "Doggy Talents",
       href: "mods/doggy_talents/doggy_talents.html",
     },
+    {
+      name: "Twilight Forest",
+      href: "mods/twilight_forest/twilight_forest.html",
+    },
   ],
 };
