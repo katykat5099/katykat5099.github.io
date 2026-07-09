@@ -42,5 +42,9 @@ window.mineHistoryData = {
       name: "Battle Towers",
       href: "mods/battle_towers/battle_towers.html",
     },
+    {
+      name: "Doggy Talents",
+      href: "mods/doggy_talents/doggy_talents.html",
+    },
   ],
 };
