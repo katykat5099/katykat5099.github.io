@@ -54,5 +54,9 @@ window.mineHistoryData = {
       name: "Twilight Forest",
       href: "mods/twilight_forest/twilight_forest.html",
     },
+    {
+      name: "Tropicraft",
+      href: "mods/tropicraft/tropicraft.html",
+    },
   ],
 };
