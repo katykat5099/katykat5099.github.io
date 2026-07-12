@@ -58,5 +58,13 @@ window.mineHistoryData = {
       name: "Tropicraft",
       href: "mods/tropicraft/tropicraft.html",
     },
+    {
+      name: "Timber!",
+      href: "mods/timber/timber.html",
+    },
+    {
+      name: "Mo' Creatures",
+      href: "mods/mo_creatures/mo_creatures.html",
+    },
   ],
 };
