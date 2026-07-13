@@ -35,6 +35,10 @@ window.mineHistoryData = {
       href: "mods/equivalent_exchange/equivalent_exchange.html",
     },
     {
+      name: "Equivalent Exchange 2",
+      href: "mods/equivalent_exchange_2/equivalent_exchange_2.html",
+    },
+    {
       name: "TooManyItems",
       href: "mods/toomanyitems/toomanyitems.html",
     },
