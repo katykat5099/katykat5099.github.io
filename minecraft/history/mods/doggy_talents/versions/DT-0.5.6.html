@@ -1,0 +1,284 @@
+<!doctype html>
+<html>
+  <link rel="stylesheet" href="../../../../../assets/stylesheets/style.css" />
+
+  <link
+    rel="stylesheet"
+    href="../../../../../assets/stylesheets/alphaworld.css"
+  />
+  <!-- Add extra page stylesheets here, like:
+    <link rel="stylesheet" href="assets/stylesheets/mystieforest.css">
+    -->
+  <head>
+    <title>Doggy Talents - 0.5.6</title>
+  </head>
+
+  <body>
+    <div id="header-container"></div>
+    <script
+      src="../../../../../common/header.js"
+      data-root="../../../../../"
+    ></script>
+
+    <div class="foreground">
+      <h1 class="welcomer">Doggy Talents v0.5.6</h1>
+      <div class="description">
+        <h1>New things since last version:</h1>
+        <div>
+          <p class="itempic">
+            <!-- List of Blocks sorted by Item ID -->
+            <a href=""
+              ><img
+                src="../../../../../assets/items/5262CollarShears.png"
+                alt="Collar Shears"
+            /></a>
+          </p>
+          <p>
+            Added a new Doggy Talents dog, and taming a Wolf now converts the
+            Wolf into either the new Doggy Talents mob, or a Tamed Wolf,
+            depending on the item used. <br /><br />
+            Dogs now have a nourishment stat that allows them to regenerate
+            health, instead of needing to be fed to recover health. <br /><br />
+            Added new talent called "Happy Eater" which increases how much
+            nourishment food gives, and also allows for more food options.
+          </p>
+        </div>
+      </div>
+      <div class="description">
+        <h1>Items in this Version:</h1>
+        <div>
+          <p class="itempic">
+            <!-- List of Blocks sorted by Item ID -->
+            <a href=""
+              ><img
+                src="../../../../../assets/items/5262TrainingTreat.png"
+                alt="Training Treat"
+            /></a>
+            <a href=""
+              ><img
+                src="../../../../../assets/items/5257Attack!.png"
+                alt="Attack!"
+            /></a>
+            <a href=""
+              ><img src="../../../../../assets/items/5258Sic!.png" alt="Sic!"
+            /></a>
+            <a href=""
+              ><img src="../../../../../assets/items/5259Stay!.png" alt="Stay!"
+            /></a>
+            <a href=""
+              ><img src="../../../../../assets/items/5260Okay!.png" alt="Okay!"
+            /></a>
+            <a href=""
+              ><img
+                src="../../../../../assets/items/5261CheckupTime!.png"
+                alt="Checkup Time!"
+            /></a>
+            <a href=""
+              ><img
+                src="../../../../../assets/items/5262CollarShears.png"
+                alt="Collar Shears"
+            /></a>
+          </p>
+        </div>
+        <h1>Mobs in this Version:</h1>
+        <div>
+          <h2>Wolves</h2>
+          <p>
+            Wolves can either be tamed into a Tamed Wolf with bones, or tamed
+            into a new entity called a Doggy Talents Dog with a Training
+            Treat.<br /><br />
+            Tamed Wolves can be turned into a Doggy Talents Dog with a Training
+            Treat.<br /><br />
+            Tamed Wolves are unaffected by any other Doggy Talents mechanics.
+          </p>
+          <h2>Doggy Talents Dog (Dog)</h2>
+          <p>
+            Dogs naturally regenerate health based on a new stat called
+            "nourishment". It can be replenished with meat, and 3 - 6 meat is
+            needed to refill from zero depending on the type of meat used. The
+            nourishment limit is 120, and higher nourishment heals quicker.
+            Nourishment levels can be seen in brackets next to their custom
+            name.
+            <br /><br />
+            Dogs can be upgraded by teaching them new talents. There are several
+            levels for a specific talent, and the chance of a successful upgrade
+            is lowered each time it gains a new level. Upgrading uses an
+            available Training Treat in the inventory.<br /><br />
+            Right-clicking a Dog with a Stick comes up with a new GUI that
+            displays the Dog's skill levels, mastery level, and the Player can
+            also use this menu to name their Dog.<br /><br />
+            Dogs can now be commanded to Wander by right-clicking them with an
+            Arrow. They will wander around the designated zone until commanded
+            to Sit.<br /><br />
+            Dogs have 16 different alternate skins to choose from. You can
+            switch the selected skin using a Lapis Lazuli Block. Each click
+            rotates through the range of colors.<br /><br />
+            Dogs that reach 0 HP do not permanently die, rather loose their
+            perks and become weak. All can be recovered by feeding them a
+            Cake.<br /><br />
+            Dogs can be released back into the wild using Collar Shears while at
+            full health. It is a 1/64 chance to work, but takes no durability to
+            do so. They keep their old talents.
+          </p>
+          <h2>Skills for Dogs</h2>
+          <h3>BlackPelt</h3>
+          <p>
+            A Dog skill using Leather. Increases the Dog's attack power on
+            successful level up. At Level 5, attack power's nearly comparable to
+            a Diamond Sword.
+          </p>
+          <h3>GuardDog</h3>
+          <p>
+            A Dog skill using an Iron Ingot. Increases the Dog's defense on
+            successful level up. At Level 5, the dog would recieve only half the
+            damage being dealt.
+          </p>
+          <h3>HellHound</h3>
+          <p>
+            A Dog skill using Netherrack. Causes the Dog's attacks to light
+            their enemies on fire. at Level 5, they gain immunity to Fire and
+            Lava.
+          </p>
+          <h3>HunterDog</h3>
+          <p>
+            A Dog skill using Flint. Causes Mobs killed by the Dog to drop
+            twice, with separate drop rates.
+          </p>
+          <h3>PillowPaw</h3>
+          <p>
+            A Dog skill using a Feather. Increases the Dog's immunity to fall
+            damage on successful level up.
+          </p>
+          <h3>Creeper Sweeper</h3>
+          <p>
+            A Dog skill using Gunpowder. Wolves will growl at Creepers to warn
+            you.
+          </p>
+          <h3>DogLight</h3>
+          <p>
+            A Dog skill using a Glowstone Block. Wolves will produce more
+            Torches when overfed per level.
+          </p>
+          <h3>WolfMount</h3>
+          <p>
+            A Dog skill using a Saddle. Wolves are ride-able, and run faster per
+            level. Can be mounted by right-clicking the Dog while in the air.<br /><br />
+            If the Dog also has the DoggyDash skill, the WolfMount skill's
+            movement is improved.*<br /><br />
+            If the Dog also has the FisherDog skill, the WolfMount skill now has
+            the ability to swim. Requires FisherDog level 5.
+          </p>
+          <h3>PackPuppy</h3>
+          <p>
+            A Dog skill using a Chest. The Dog will now have an Inventory to
+            store items in. The Inventory can be accessed by ctrl-right-clicking
+            the Dog. The inventory gains 3 slots per level, with a maximum of 15
+            levels.
+          </p>
+          <h3>DoggyDash</h3>
+          <p>
+            A Dog skill using a Gold Ingot. The Dog will now lunge at enemies.*
+          </p>
+          <h3>FisherDog</h3>
+          <p>
+            A Dog skill using String. The Dog can now "fish" for Fish while in
+            water. They will drop Fish after shaking off their pelts. At Level
+            5, they can breathe underwater.
+          </p>
+          <h3>HappyEater</h3>
+          <p>
+            A Dog skill using a Wooden Bowl. Increases the Dog's nourishment
+            intake by 10% per level. At level 3, allows them to eat Fish. At
+            level 5, allows them to eat Rotten Flesh.
+          </p>
+          <h2>Skins</h2>
+          <p>
+            Dogs have 16 extra available skins to choose from. You can cycle
+            through them by right clicking on the Dog while holding a Lapis
+            Lazuli Block. Doing this does not use the block.
+          </p>
+          <img
+            src="../assets/V0.5.6/Skin 1.png"
+            style="max-width: 49%; height: auto"
+          />
+          <img
+            src="../assets/V0.5.6/Skin 2.png"
+            style="max-width: 49%; height: auto"
+          />
+          <img
+            src="../assets/V0.5.6/Skin 3.png"
+            style="max-width: 49%; height: auto"
+          />
+          <img
+            src="../assets/V0.5.6/Skin 4.png"
+            style="max-width: 49%; height: auto"
+          />
+          <img
+            src="../assets/V0.5.6/Skin 5.png"
+            style="max-width: 49%; height: auto"
+          />
+          <img
+            src="../assets/V0.5.6/Skin 6.png"
+            style="max-width: 49%; height: auto"
+          />
+          <img
+            src="../assets/V0.5.6/Skin 7.png"
+            style="max-width: 49%; height: auto"
+          />
+          <img
+            src="../assets/V0.5.6/Skin 8.png"
+            style="max-width: 49%; height: auto"
+          />
+          <img
+            src="../assets/V0.5.6/Skin 9.png"
+            style="max-width: 49%; height: auto"
+          />
+          <img
+            src="../assets/V0.5.6/Skin 10.png"
+            style="max-width: 49%; height: auto"
+          />
+          <img
+            src="../assets/V0.5.6/Skin 11.png"
+            style="max-width: 49%; height: auto"
+          />
+          <img
+            src="../assets/V0.5.6/Skin 12.png"
+            style="max-width: 49%; height: auto"
+          />
+          <img
+            src="../assets/V0.5.6/Skin 13.png"
+            style="max-width: 49%; height: auto"
+          />
+          <img
+            src="../assets/V0.5.6/Skin 14.png"
+            style="max-width: 49%; height: auto"
+          />
+          <img
+            src="../assets/V0.5.6/Skin 15.png"
+            style="max-width: 49%; height: auto"
+          />
+          <img
+            src="../assets/V0.5.6/Skin 16.png"
+            style="max-width: 49%; height: auto"
+          />
+          <hr class="divider" />
+          <img
+            src="../assets/V0.5.6/Skill GUI.png"
+            style="max-width: 100%; height: auto"
+          />
+          <img
+            src="../assets/V0.5.6/Pack Puppy GUI.png"
+            style="max-width: 100%; height: auto"
+          />
+        </div>
+        <h1>Other Information:</h1>
+        <div>
+          <p>
+            <b>BUG</b>: Shift-clicking items out of the Pack Puppy inventory
+            crashes the game.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
